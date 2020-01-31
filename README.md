@@ -1,6 +1,9 @@
-# github-upload
+# README
+
+### Colin McCulloch
 
 
+###### Intro
 Thanks for checking out my blog, it is currently being worked on. My hardest past so far was using my machine loaclly to initialize the repository. Once I got the repo set up, I created this readme file with only a header.
 
 I then added in a gitignore from the wrong directory somehow, so I had to go back and fix that later. After i got those two files added locally, I pushed up to github. Once I had an understanding of adding, commit, pushing and pulling, I started to add a few extra files. 
