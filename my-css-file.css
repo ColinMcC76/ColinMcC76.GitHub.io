@@ -3,8 +3,10 @@ html {
     background-color:black;
 }
 h1{
-    color:red
+    color:red;
+    font-size: 25px;
 }
 p {
     color:white;
+    font-size: 14px;
 }
