@@ -4,7 +4,11 @@ html {
 }
 h1{
     color:red;
-    font-size: 25px;
+    font-size: 26px;
+}
+h2{
+    color:red;
+    font-size: 20px;
 }
 p {
     color:white;
