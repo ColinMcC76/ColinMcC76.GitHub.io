@@ -15,8 +15,10 @@ h2{
     font-size: 20px;
     margin: 1em
 }
+a{
+    color: grey;
+}
 p {
-    color:whitesmoke;
     font-size: 16px;
     padding: 2em;
     color: whitesmoke;
@@ -28,7 +30,7 @@ nav ul{
 }
 nav li{
     display: inline;
-    color: whitesmoke;
+    color: grey;
     font-size: 20px;
     justify-content: space-evenly;
     padding: 1em;
@@ -45,7 +47,7 @@ a.socialMedia{
 a.socialMedia:visited{
     color: grey;
 }
-a.socialMedia:hover{
+a.socialMedia:hover, a.special:hover{
     color: red;
 }
 a.special:link{
@@ -53,9 +55,6 @@ a.special:link{
 }
 a.special:visited{
     color: grey;
-}
-a.special:hover{
-    color: red;
 }
 a.img{
     display: block;
