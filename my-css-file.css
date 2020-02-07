@@ -2,10 +2,13 @@
 html {
     font-size: 10px;
     background-color:black;
+    margin-left: 5em;
+    max-width: 100%;
 }
 h1{
     color:red;
     font-size: 26px;
+    text-align: center;
 }
 h2{
     color:red;
@@ -13,16 +16,41 @@ h2{
 }
 p {
     color:whitesmoke;
-    font-size: 14px;
+    font-size: 16px;
+    border-style: solid;
+    padding: 2em;
+    border-width: 3px;
+    color: whitesmoke;
+    margin-right: 60%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 nav ul{
     list-style: none;
+    text-align: right;
 }
 nav li{
     display: inline;
     color: whitesmoke;
     font-size: 20px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    padding: 1em;
+    border-style: outset;
+    border-width: 3px;
+    background-color:gainsboro
+} 
+ul.socialMedia{
+    text-align: right;
+}
+a.socialMedia{
+    font-size: 2em;
+
+}
+a.socialMedia:visited{
+    color: grey;
+}
+a.socialMedia:hover{
+    color: red;
 }
 a.special:link{
     color: whitesmoke
@@ -32,4 +60,10 @@ a.special:visited{
 }
 a.special:hover{
     color: red;
+}
+a.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
