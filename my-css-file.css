@@ -79,3 +79,11 @@ article{
 .center{
     text-align: center;
 }
+.button label{
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 1em;
+}
+.button button{
+    color: black;
+}
