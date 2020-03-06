@@ -1,82 +1,217 @@
 <!DOCTYPE html>
-        <html lang="en-US">
-                <head>
-                        
-                        <meta charset="utf-8"> 
-                        <meta name="description" content="This blog hopes to showcase the skills and abilities learned from Awesome Inc. as a web developer.">
-                        <meta name="author" content="Colin McCulloch">
-                        
-                        
-                        <meta property="og:image" content="https://i.imgur.com/7elBMgJ.jpg">
-                        <meta property="og:description" content="This blog hopes to showcase the skills and abilities learned from Awesome Inc. as a web developer.">
-                        <meta property="og:title" content="Awesome Inc. Bootcap Blog">
-                        
-                        <link rel="stylesheet" href="my-css-file.css">
-                        <title> Blog home page </title>
-                        
-                </head>       
-                <body> 
-                        <header>
-                                <h1>Colin Mculloch's Awesome Inc. BootCamp Blog</h1>
-                        </header>
-                        <nav>
-                                <ul>
-                                        <li><a class="special" href="Blog-Page-2.html">Week 2</a></li>
-                                        <li><a class="special" href="Page4.html">Week 3</a></li>
-                                        <li><a class="special" href="Projects.html">Projects</a></li>
-                                        <li><a class="special" href="Links.html">Links</a></li>
-                                        <li><a class="special" href="Page3.html"><abbr title="Advanced HTML Reference">Adv. Ref.</abbr></a></a></li>
-                                </ul>
-                        </nav>
-                        <main> 
-                                <a class="img" href="blogImages/Mars.jpg">
-                                <img id="mars" src="blogImages/Mars.jpg" alt="picture of mars" height="556.9px";width="556.9px">
-                                </a>
-                                <br>
-                                <br>
-                        
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-                                        <h2>Pre Work Week 1</h2>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Awesome Inc Blog</title>
+    <meta name="description" content="Colin McCulloch's Dev Blog page, not meant to be seen by other people.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-                                                <article>
-                                                        <p>Thanks for checking out my blog, it is currently<br>
-                                                        being worked on. My hardest past so far was<br>
-                                                        using my machine locally to initialize the repository.<br>
-                                                        Once I got the repo set up, I created a readme file with only a header.</p>
-                                                                
-                                                        <p>Then I added in a gitignore from the wrong<br> 
-                                                        directory somehow, so I had to go back and fix that later.<br>
-                                                        After  got those two files added locally,<br> 
-                                                        I pushed up to github. Once I had an<br> 
-                                                        understanding of adding, commit, pushing and<br> 
-                                                        pulling, I started to add a <strong>few extra files.</strong></p>       
-                                                                
-                                                        <p>I've added an html document that I have been able to implement!<br>
-                                                        I also added a few images from my computer just to test it out.<br>
-                                                        Finally I removed the wrong gitignore, and added the<br>
-                                                        right one in the proper place, and updated the readme.</p>
-                                                                
-                                                        <p>An <em>"aha"</em> moment I had was setting up the initial 
-                                                        repository on my local machine, but that's integral<br>
-                                                        for understanding web development. After I had the<br>
-                                                        terminal properly configured,I was able to<br>
-                                                        move forward with gitupload, and from there<br>
-                                                        started my blog. I think the coolest thing I've<br>
-                                                        learned so far is the terminal commands,<br>
-                                                        they can be used on almost any system.</p>
-                                                </article>
-                                                        <aside>
-                                                                <ul class="socialMedia">
-                                                                        <li><a class="socialMedia" href="https://github.com/ColinMcC76" title="GitHub profile" target="_blank"> GitHub Profile. </a></li><a>    
-                                                                        <li><a class="socialMedia" href="https://steamcommunity.com/profiles/76561198062021056/home" title="Steam Profile" target="_blank">Steam Profile</a></      li>
-                                                                        <li><a class="socialMedia" href="https://reddit.com" title="I won't out myself." target="_blank">Reddit link</a></li>
-                                                                </ul>
-                                                        </aside>        
-                                                <!--- this is my first week of work dedicated towards the maintainance of my blog. --->            
-                                                <footer class="center">
-                                                        <p><a href="mailto:colinmucculloch@gmail.com">Send me an email</a> about how much fun you're having reading my adventure in web developer.</p>
-                                                </footer>
-                                        </main>
-                <script src="my-js-file.js"></script>
-                </body>
-        </html>
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- creates the nav bar for my page, links are active. -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagesCopy/Links.html">Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagesCopy/Projects.html">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#week1">Prework Week one</a>
+                        <a class="dropdown-item" href="#week2">Prework Week two</a>
+                        <a class="dropdown-item" href="#week3">Prework Week three</a>
+                        <a class="dropdown-item" href="#week4">Prework Week four</a>
+                        <a class="dropdown-item" href="#week5">Week one in class</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- creates a carousel for my images  -->
+    <!--         
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item imgResize active">
+                    <img src="img/earth.svg" class="imgResize img-fluid" alt="First slide">
+                </div>
+                <div class="carousel-item imgResize">
+                    <img src="img/moon.svg" class="imgResize" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mars.svg" class="imgResize" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+                        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div> -->
+
+    <div class="container-fluid text-center" id=mainPage>
+        <div class="row">
+            <div class="d-none d-lg-block col-md-2 py-5">
+                <ul class="list-unstyled p-2">
+                    <li>
+                        <a href="https://github.com/ColinMcC76" target="_blank" class="btn py-2 btn-dark btn-outline-light buttonSize">Github <i class="fab fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/colin-mucculloch-2844a31a2/" target="_blank" class="btn py-2 btn-dark btn-outline-light buttonSize">LinkedIn <i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/colin.mcculloch76" target="_blank" class="btn py-2 btn-dark btn-outline-light buttonSize">Facebook <i class="fab fa-facebook"></i></a>
+                    </li>
+                    <!-- <li>
+                        <a href="#" class="btn py-2 btn-dark btn-outline-light buttonSize">these</a>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-10 container-fluid">
+                <div class="row overflow-auto">
+                    <div class="col-sm-12 col-md-12 col-lg-6 p-5">
+                        <div id="week1">
+                            <p>
+                                <h2 class="m-4 display-4">Week one of prework</h2>
+                                Thanks for checking out my blog, it is currently being worked on. My hardest past so far was using my machine locally to initialize the repository. Once I got the repo set up, I created a readme file with only a header.</p>
+
+                            <p>Then I added in a gitignore from the wrong directory somehow, so I had to go back and fix that later. After got those two files added locally, I pushed up to github. Once I had an understanding of adding, commit, pushing and
+                                pulling, I started to add a <strong>few extra files.</strong></p>
+
+                            <p>I've added an html document that I have been able to implement! I also added a few images from my computer just to test it out. Finally I removed the wrong gitignore, and added the right one in the proper place, and updated
+                                the readme.
+
+                                <p>An <em>"aha"</em> moment I had was setting up the initial repository on my local machine, but that's integral for understanding web development. After I had the terminal properly configured,I was able to move forward with
+                                    git upload, and from there started my blog. I think the coolest thing I've learned so far is the terminal commands, they can be used on almost any system.
+                                </p>
+                        </div>
+                        <div id="week2">
+                            <h2 class="m-4 display-4">Week two of prework</h2>
+                            <p>
+                                Thanks for checking out my second week worth of work, this week I spent my time learning the fundementals of html and css. It has definitely been a challenging week, implementing skills I had literally just learned. But that is the exciting part about
+                                this bootcamp; learning on the fly. My favorite part was adding in the nav bar on my top right corner, that made my blog feel like it had more depth.
+                            </p>
+                            <h3>What are your thoughts on pseudo coding?</h3>
+                            <p>I have some experience previously with pseudo coding. I took a class in computer science that didn't use computers... But it absolutely helped me with the process that goes into thinking about how to effectively write code
+                                the machine will implement correctly. I understand that properly writing code helps with the end result, because theres a million ways to get the same result, but some are better than others.
+                            </p>
+
+                            <h3>What are you struggling with?</h3>
+                            <p>
+                                I'm having trouble with CSS, but I'm sure with experience I will eventually get the hang of it. I'll have to look for more resources on it, or find a way to use the documentation and implement it in a live fashion, to see the changes. I'm open to any
+                                suggestions on CSS tutorials or training, because I had a hard getting getting the CSS Comprehension ID card finished, and I'm sure it could be better done.
+                            </p>
+                            <h3>What are you excited or eager to learn more about?</h3>
+                            <p>
+                                I am excited to continue to learn designing websites, making my blog more personal was very fun. Learning more CSS and getting comfortable with it will only make my blog more animate and alive. Java will also be exciting to implement in the webpage, i'm
+                                intrigued to see next weeks work, but hesitant because I'm weary with CSS at the moment.
+                            </p>
+                            <p>
+                                "Aha" moments have been in short supply this week.. I was able to get through HTML with relative ease, but CSS has thrown me through the ringer. While I was able to finish all the assignments, I stumbled through the CSS without a true understanding of
+                                the work. Hopefully as I continue to work over the weekend I will have more of an understanding.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="imgContainer">
+                            <img src="img/mars.svg" class="img-fluid" alt="mars">
+                        </div>
+                        <div id="week3">
+                            <h2 class="m-4 display-4">Week three of prework</h3>
+                                <h3>What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h2>
+                            <p>
+                                They all work in with each other to produce the full experience for the user. With only html the page would be very basic, with only css you'd have style and design to the page but no content. Finally, Javascript executes all the script on the page so
+                                that he user will have a dynamic experience on the website. I'm excited to see how Javasript will continue to play an important job in our roles as a web developer.
+                            </p>
+                            <h3>What are some objects that your blog incorporates?</h3>
+                            <p>
+                                Right now I dont believe my page incorporates any objects at the moment. I'd like to add a live twitter feed embedded in my main page, along with a search bar, so I can searh through all my content in the page and find anything relative. I'd also like
+                                the make my nav bar sleeker and more modern with an eternal scroll function.
+                            </p>
+                        </div>
+                        <div id="week4">
+                            <h2 class="m-4 display-4">Week four of prework</h2>
+                            <h3>What was one thing you liked and disliked about each of the new topics covered in prework?</h3>
+                            <p>All around I found the prework to be very beneficial to the progress of my wed development career. Prework alone forces you to search for the information and figure out how to come up with the right answers on your own. The
+                                hardest part would be actually combing through the information/documention. Referencing the documentation is the best way to make sure that your code is right, and through time you will become more confident.</p>
+                            <h3>What was helpful?</h3>
+                            <p>Every introduction topic we helpful with exposing you to content, and slowly getting you to manipulate it more and more until you have a basic understanding of how the process works. </p>
+                            <h3>What hindered your progress?</h3>
+                            <p>Being alone was both a benefit and a hinderance. By being alone you are forced to rely on yourself to get the answer, but also left you to continue or develop bad practice if not properly corrected. Syntax and logic can easily
+                                be messed up, and alone it is easy to get yourself possibly stuck.</p>
+                            <h3>How did you overcome challenges?</h3>
+                            <p>The help channel on slack was a great help. Every one was very active in problems they experienced, and if you had the same issue, someone else probably had the issue a swell. </p>
+                        </div>
+                    </div>
+                    <div class="container-fluid mb-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <span id="week5"> </span>
+                                <h2 class="m-4 display-4 ">Week One in Class</h2>
+                                <h3 class="pt-3">What did you learn about that helped you understand more about design?</h3>
+                                <p class="pt-3">Bootstrap is a design godsend. The ability to quickly throw css onto a page without much modification is amazing, giving me the opportunity to make a completely responsive and stylized page in less than a day. The C.R.A.P.
+                                    principles of design are also important to think about when creating the page, actually giving you rules to use so that a page is much more professional.</p>
+                                <h3 class="pt-3">What do you want to continue learning about that helps you understand design better?</h3>
+                                <p class="pt-3">The more I can learn about utilizing bootstrap, the more fleshed out and stylized my designs will become. I'll have to keep referencing the documentation on getBootstrap to keep finding.</p>
+                                <h3 class="pt-3">What Design aspects are important to you as a user and as a developer?</h3>
+                                <p class="pt-3">proper spacing, symmetry, proper color deviation, and proximity are all very important to make a page actually look styled properly. As a developer I strive to make my page look as flush and easy to read as possible. As
+                                    a user, having a hard time reading a page or misunderstanding the layout will do nothing but cause me to leave the page immediately. </p>
+                                <h3 class="pt-3">What is the number one thing that held you back this week? Why?</h3>
+                                <p class="pt-3">I would say the number one thing holding me back on my first week of coding would be is figuring out how to design a page, that looks modern and not like its been up since 1997. </p>
+                                <h3 class="pt-3">What is one thing you would like to get better at in bootcamp?</h3>
+                                <p class="pt-3 end">I would like to get better at making my websites as responsive as possible. In todays day and age, if you cannot access a webpage on any device then it will not survive. People use their phones, apps, ipads, laptops, TV's
+                                    and more all have access to the internet, and all of them should be able to access them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
