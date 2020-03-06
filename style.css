@@ -1,0 +1,35 @@
+@media screen and (min-width: 992px) {
+    .imgContainer {
+        margin-top: 150px;
+    }
+}
+
+.scroll {
+    height: 100vh;
+    width: 100%;
+}
+
+html,
+#mainPage {
+    color: bisque;
+    background-color: black;
+}
+
+.buttonSize {
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+#week5 {
+    height: 150px;
+    width: auto;
+}
+
+.end {
+    margin-bottom: 4em;
+}
+
+bod

@@ -1,6 +1,7 @@
 /* basic element styling */
 html {
     font-size: 10px;
+    display: flex;
     background-color:black;
     margin-left: 5em;
     max-width: 100%;
