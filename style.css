@@ -19,10 +19,6 @@ html,
     width: 100%;
 }
 
-body {
-    overflow: hidden;
-}
-
 #week5 {
     height: 150px;
     width: auto;
