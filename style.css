@@ -28,4 +28,7 @@ html,
     margin-bottom: 4em;
 }
 
-bod
+.card {
+    color: black;
+    background-color: rgb(160, 160, 160);
+}
