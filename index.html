@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html>
 <!--<![endif]-->
 
 <head>
@@ -14,16 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-    <!-- creates the nav bar for my page, links are active. -->
-
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,39 +54,10 @@
         </div>
     </nav>
 
-    <!-- creates a carousel for my images  -->
-    <!--         
-        <div id="carouselId" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselId" data-slide-to="1"></li>
-                <li data-target="#carouselId" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item imgResize active">
-                    <img src="img/earth.svg" class="imgResize img-fluid" alt="First slide">
-                </div>
-                <div class="carousel-item imgResize">
-                    <img src="img/moon.svg" class="imgResize" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/mars.svg" class="imgResize" alt="Third slide">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-                        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> -->
-
     <div class="container-fluid text-center" id=mainPage>
         <div class="row">
-            <div class="d-none d-lg-block col-md-2 py-5">
-                <ul class="list-unstyled p-2">
+            <div class="d-none d-lg-block col-md-2">
+                <ul class="list-unstyled  sidebar py-5">
                     <li>
                         <a href="https://github.com/ColinMcC76" target="_blank" class="btn py-2 btn-dark btn-outline-light buttonSize">Github <i class="fab fa-github"></i></a>
                     </li>
@@ -113,13 +79,10 @@
                             <p>
                                 <h2 class="m-4 display-4">Week one of prework</h2>
                                 Thanks for checking out my blog, it is currently being worked on. My hardest past so far was using my machine locally to initialize the repository. Once I got the repo set up, I created a readme file with only a header.</p>
-
                             <p>Then I added in a gitignore from the wrong directory somehow, so I had to go back and fix that later. After got those two files added locally, I pushed up to github. Once I had an understanding of adding, commit, pushing and
                                 pulling, I started to add a <strong>few extra files.</strong></p>
-
                             <p>I've added an html document that I have been able to implement! I also added a few images from my computer just to test it out. Finally I removed the wrong gitignore, and added the right one in the proper place, and updated
                                 the readme.
-
                                 <p>An <em>"aha"</em> moment I had was setting up the initial repository on my local machine, but that's integral for understanding web development. After I had the terminal properly configured, I was able to move forward with
                                     git upload, and from there started my blog. I think the coolest thing I've learned so far is the terminal commands, they can be used on almost any system.
                                 </p>
@@ -127,14 +90,13 @@
                         <div id="week2">
                             <h2 class="m-4 display-4">Week two of prework</h2>
                             <p>
-                                Thanks for checking out my second week worth of work, this week I spent my time learning the fundementals of html and css. It has definitely been a challenging week, implementing skills I had literally just learned. But that is the exciting part about
+                                Thanks for checking out my second week worth of work, this week I spent my time learning the fundamentals of html and css. It has definitely been a challenging week, implementing skills I had literally just learned. But that is the exciting part about
                                 this bootcamp; learning on the fly. My favorite part was adding in the nav bar on my top right corner, that made my blog feel like it had more depth.
                             </p>
                             <h3>What are your thoughts on pseudo coding?</h3>
                             <p>I have some experience previously with pseudo coding. I took a class in computer science that didn't use computers... But it absolutely helped me with the process that goes into thinking about how to effectively write code
                                 the machine will implement correctly. I understand that properly writing code helps with the end result, because theres a million ways to get the same result, but some are better than others.
                             </p>
-
                             <h3>What are you struggling with?</h3>
                             <p>
                                 I'm having trouble with CSS, but I'm sure with experience I will eventually get the hang of it. I'll have to look for more resources on it, or find a way to use the documentation and implement it in a live fashion, to see the changes. I'm open to any
@@ -150,8 +112,8 @@
                                 the work. Hopefully as I continue to work over the weekend I will have more of an understanding.
                             </p>
                         </div>
-
                     </div>
+
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <div class="imgContainer">
                             <a href="blogImages/Mars.jpg"><img src="img/mars.svg" class="img-fluid" alt="mars"></a>
@@ -165,7 +127,7 @@
                             </p>
                             <h3>What are some objects that your blog incorporates?</h3>
                             <p>
-                                Right now I dont believe my page incorporates any objects at the moment. I'd like to add a live twitter feed embedded in my main page, along with a search bar, so I can searh through all my content in the page and find anything relative. I'd also like
+                                Right now I don't believe my page incorporates any objects at the moment. I'd like to add a live twitter feed embedded in my main page, along with a search bar, so I can searh through all my content in the page and find anything relative. I'd also like
                                 the make my nav bar sleeker and more modern with an eternal scroll function.
                             </p>
                         </div>
@@ -173,7 +135,7 @@
                             <h2 class="m-4 display-4">Week four of prework</h2>
                             <h3>What was one thing you liked and disliked about each of the new topics covered in prework?</h3>
                             <p>All around I found the prework to be very beneficial to the progress of my wed development career. Prework alone forces you to search for the information and figure out how to come up with the right answers on your own. The
-                                hardest part would be actually combing through the information/documention. Referencing the documentation is the best way to make sure that your code is right, and through time you will become more confident.</p>
+                                hardest part would be actually combing through the information/documentation. Referencing the documentation is the best way to make sure that your code is right, and through time you will become more confident.</p>
                             <h3>What was helpful?</h3>
                             <p>Every introduction topic we helpful with exposing you to content, and slowly getting you to manipulate it more and more until you have a basic understanding of how the process works. </p>
                             <h3>What hindered your progress?</h3>
@@ -209,21 +171,23 @@
                                     <h3 class="pt-3">
                                         What did you learn about that helped you understand the development process?</h3>
                                     <p class="pt-3">
-
+                                        Psuedo-code has helped me understand the grand scope of developing much more, by allowing me to take a step back, and access what I need the code to do in a basic level, and then how to implement it with the right questions.
                                     </p>
                                     <h3 class="pt-3">
                                         What does it mean to develop good code?</h3>
                                     <p class="pt-3">
-
+                                        I believe writing good code means to make the most out of the least code, and have your code accomplish the task at hand as efficiently as possible.
                                     </p>
                                     <h3 class="pt-3">
                                         What does it mean to be a good developer?</h3>
                                     <p class="pt-3">
-
+                                        A good developer does not repeat themselves, they keep it as <abbr title="Don't repeat yourself.">dry</abbr> as posible,and to get the best possible product with your least amount of time invested. Repeating and
+                                        development make your work redundant.
                                     </p>
                                     <h3 class="pt-3">What is one thing that programmers hate doing?</h3>
                                     <p class="pt-3">
-                                        eurheorpi werjwnerpoe rwjrenwpeinvw wrivnwrj eriou3nrfweoriuwneriwenrfw roiwerfiowerwerw eowierw rroweirewieruierj riwurwr werunwer owerinr ior rei peoriwe;lrk wpernwrek powerwk;erj
+                                        Not to sound like a broken record, or to miss the point or anything, but I think that developers hate repeating themselves. Working harder than needed to get the result intended is against the morality of a developer,
+                                        <abbr title="In my opinion">IMO</abbr>.
                                     </p>
                                     <hr class="display-4">
                                 </div>
