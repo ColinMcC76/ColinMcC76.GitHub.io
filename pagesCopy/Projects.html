@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -56,8 +57,8 @@
     <div class="container-fluid text-center" id=mainPage>
         <div class="row">
             <!-- side bar column displays when the screen is large+-->
-            <div class="d-none d-lg-block col-md-2 py-5">
-                <ul class="list-unstyled p-2">
+            <div class="d-none d-lg-block col-md-2">
+                <ul class="list-unstyled  sidebar py-5">
                     <li>
                         <a href="https://github.com/ColinMcC76" target="_blank" class="btn py-2 btn-dark btn-outline-light buttonSize">Github <i class="fab fa-github"></i></a>
                     </li>
@@ -67,14 +68,24 @@
                     <li>
                         <a href="https://www.facebook.com/colin.mcculloch76" target="_blank" class="btn py-2 btn-dark btn-outline-light buttonSize">Facebook <i class="fab fa-facebook"></i></a>
                     </li>
+                    <!-- <li>
+                        <a href="#" class="btn py-2 btn-dark btn-outline-light buttonSize">these</a>
+                    </li> -->
                 </ul>
             </div>
-
             <div class="col-sm-12 col-md-10 container-fluid">
                 <div class="row overflow-auto scroll pb-5">
                     <!--  creates the scrolling aspect of the page-->
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <!-- left column-->
+                        <div class="card my-5">
+                            <img class="card-img-top" src="../img/ticTacToe.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Tic Tac Toe</h5>
+                                <p class="card-text">Tic Tac Toe is a classic game, offering all the nostalgia you know and love. </p>
+                                <a href="https://github.com/ColinMcC76/ticTacToe" class="btn btn-primary">Play Game</a>
+                            </div>
+                        </div>
                         <div class="card my-5">
                             <img class="card-img-top" src="../img/balls.png" alt="Card image cap">
                             <div class="card-body">
@@ -107,10 +118,29 @@
                                 <a href="https://colinmcc76.github.io/imgGallery/" class="btn btn-primary">Check it out</a>
                             </div>
                         </div>
-
+                        <div class="card my-5">
+                            <img class="card-img-top" src="../img/weatherApp.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather App</h5>
+                                <p class="card-text">The app is the the coolest thing in the project slide, yet. <abbr title="Application Program Interface">API</abbr>'s offer a world of possibilities with pulling data sets from the internet and displaying the information
+                                    immediately on the screen. </p>
+                                <a href="https://colinmcc76.github.io/weatherApp/" class="btn btn-primary">What's the weather?</a>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <!-- right column-->
+
+                        <div class="card my-5">
+                            <img class="card-img-top" src="../img/calc.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Classic Calculator</h5>
+                                <p class="card-text">this app gives you basic utility function of a calculator. It was a fun challenge getting the buttons wired up to the page and to respond with the classes. <abbr title="Application Program Interface">API</abbr>'s offer
+                                    a world of possibilities with pulling data sets from the internet and displaying the information immediately on the screen. </p>
+                                <a href="https://github.com/ColinMcC76/calculator" class="btn btn-primary">What's the weather?</a>
+                            </div>
+                        </div>
                         <div class="card my-5">
                             <img class="card-img-top" src="../img/mindreader.png" alt="Card image cap">
                             <div class="card-body">
@@ -141,15 +171,6 @@
                                 <h5 class="card-title">Timer</h5>
                                 <p class="card-text">The timer is even even better than the clock, all the same functions and more! I wasn't able to get the user input into it, but looking back I could easily knock that out.</p>
                                 <a href="https://colinmcc76.github.io/countdownTimer/" class="btn btn-primary">Set a timer</a>
-                            </div>
-                        </div>
-                        <div class="card my-5">
-                            <img class="card-img-top" src="../img/weatherApp.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Weather App</h5>
-                                <p class="card-text">The app is the the coolest thing in the project slide, yet. <abbr title="Application Program Interface">API</abbr>'s offer a world of possibilities with pulling data sets from the internet and displaying the information
-                                    immediately on the screen. </p>
-                                <a href="https://colinmcc76.github.io/weatherApp/" class="btn btn-primary">What's the weather?</a>
                             </div>
                         </div>
                     </div>
